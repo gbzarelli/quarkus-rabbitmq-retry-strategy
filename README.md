@@ -1,6 +1,6 @@
 # quarkus-rabbitmq-retry-strategy
 
-This project was created to implement a retry strategy for consumer messages based on article: https://programmerfriend.com/rabbit-mq-retry/
+This project was created to implement a replay strategy for article-based message consumption: https://programmerfriend.com/rabbit-mq-retry/
 
 ![image](https://user-images.githubusercontent.com/6283514/156647036-3c571a2e-a10b-4a59-8205-40e768d64154.png)
 

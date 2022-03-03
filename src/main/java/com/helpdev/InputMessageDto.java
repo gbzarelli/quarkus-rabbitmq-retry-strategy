@@ -1,6 +1,6 @@
 package com.helpdev;
 
-public class InputMessage {
+public class InputMessageDto {
 
     public String name;
     public int age;

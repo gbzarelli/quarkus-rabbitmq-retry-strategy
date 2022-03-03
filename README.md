@@ -1,8 +1,10 @@
-# sample-rabbitmq-worker Project
+# quarkus-rabbitmq-retry-strategy
+
+This project was created to implement a retry strategy for consumer messages based on article: https://programmerfriend.com/rabbit-mq-retry/
+
+![image](https://user-images.githubusercontent.com/6283514/156647036-3c571a2e-a10b-4a59-8205-40e768d64154.png)
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
-
-If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
 
 ## Running the application in dev mode
 
@@ -49,8 +51,7 @@ If you want to learn more about building native executables, please consult http
 
 ## Provided Code
 
-### RESTEasy JAX-RS
+### SmallRye Reactive Messaging RabbitMQ
 
-Easily start your RESTful Web Services
-
-[Related guide section...](https://quarkus.io/guides/getting-started#the-jax-rs-resources)
+- https://quarkus.io/guides/rabbitmq
+- https://quarkus.io/guides/rabbitmq-reference

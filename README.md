@@ -4,11 +4,22 @@ This project was created to implement a replay strategy for article-based messag
 
 ![image](https://user-images.githubusercontent.com/6283514/156647036-3c571a2e-a10b-4a59-8205-40e768d64154.png)
 
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
+For this sample, the auto-create queues and bindings were disabled, but if you need the application auto-create it just enables and configures the other properties, uses that guide with references:
+
+- https://smallrye.io/smallrye-reactive-messaging/smallrye-reactive-messaging/3.11/rabbitmq/rabbitmq.html
+
+on the other hand, was created the [definitions.json](https://github.com/gbzarelli/quarkus-rabbitmq-retry-strategy/blob/main/stack/rabbitmq/definitions.json) to up with the [docker-compose](https://github.com/gbzarelli/quarkus-rabbitmq-retry-strategy/tree/main/stack)
 
 ## Running the application in dev mode
 
+Run the docker compose:
+
+```shell
+docker-compose -f ./stack/docker-compose.yml up -d
+```
+
 You can run your application in dev mode that enables live coding using:
+
 ```shell script
 ./mvnw compile quarkus:dev
 ```
